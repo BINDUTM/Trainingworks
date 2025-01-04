@@ -1,0 +1,27 @@
+Steps to add files from Local system to Remote Repository in GitHub
+
+1. first create a account in github.com-- do all the formalities
+2. Create a new repository-as public
+3. Open git bash terminal
+4. Make as  your working directory
+5. use ls command to view command
+6. now git commands to do the actions
+     i) git init   -- used for intialization
+     ii) git remote add origin [url link from github]-examplehttps://github.com/RTBindu/RBDemos.git
+     iii) git remote -v   check for permission off push pull
+     iv) git add .      to add files to remote sytem
+     v) git commit -m"Message"  this is for to complete the adding of the file.
+     vi) git push origin master       to transfer the file to the master folder of the repository created.
+7. Now check the files is there in repository by refreshing the site.
+8. You see the file uploaded in github repository.
+
+If addidng the second file do the same process sometimes errors will come , then we need to pull the request in remote repository and then push the file.
+
+   i) git pull origin master
+   ii) git commit    when this command is executed , we might me rediredted to merge_msg file. just give the statement   and save by using linux command :wq. so exit from this editor.
+   iii) git status    just check the staus of the files.
+   iv) git push origin master.
+
+Now check the remote repository for the new change done.
+
+
